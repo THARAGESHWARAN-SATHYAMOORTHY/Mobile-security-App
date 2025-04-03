@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Challenge Title -->
+
+    <!-- Challenge Description -->
+    <TextView
+        android:id="@+id/challengeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Make your BUG %JUMP%"
+        android:textColor="#F05105"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Hyperlink for Download -->
+
+    <TextView
+        android:id="@+id/challengeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:text="Buggy Jumpa is a new mobile game, that can be enjoyabale for both hackers and gamers ! There's a lot going on, can you get some of the games source code to see whats happening behind the scence !!!"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/downloadLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:paddingTop="10dp"
+        android:text="Download"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Hint: Ever wondered how to peek inside a Godot game's packed resources?"
+        android:textColor="#FFFEFE"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
